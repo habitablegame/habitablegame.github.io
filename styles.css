@@ -1,0 +1,92 @@
+
+/* Reset some default styles for better control */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    /* background-color: #f0f0f0; Background color */
+    background-image: url('./Img/Habitable_Background.png'); /* Background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Header styles */
+header {
+    background-image: url('./Img/header.png');
+    /* background-color: rgba(255, 255, 255, 0.9); Background color with transparency */
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    min-height: 300px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+}
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Navigation menu styles */
+nav {
+    margin-top: 250px;
+    color: white;
+    
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styles */
+section {
+    background-color: rgba(255, 255, 255, 0.9); /* Section background color with transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9); /* Footer background color with transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Links styles */
+a {
+    text-decoration: none;
+    /* color: #333; */
+}
+
+a:hover {
+    text-decoration: underline;
+}
